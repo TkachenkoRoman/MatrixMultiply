@@ -9,11 +9,15 @@
         <Label Content="Matrix2 size:" HorizontalAlignment="Left" Margin="10,49,0,0" VerticalAlignment="Top"/>
         <TextBox x:Name="TextBoxMatr2Rows" HorizontalAlignment="Left" Height="23" Margin="98,51,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="50" TextChanged="TextBoxMatr2Rows_TextChanged"/>
         <TextBox x:Name="TextBoxMatr2Cols" HorizontalAlignment="Left" Height="23" Margin="158,51,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="50" TextChanged="TextBoxMatr2Cols_TextChanged"/>
-        <Button x:Name="ButtonCalculate" Content="Calculate" HorizontalAlignment="Left" Margin="98,125,0,0" VerticalAlignment="Top" Width="75" Click="ButtonCalculate_Click"/>
+        <Button x:Name="ButtonCalculate" Content="Calculate" HorizontalAlignment="Left" Margin="11,80,0,0" VerticalAlignment="Top" Width="75" Click="ButtonCalculate_Click"/>
         <Label Content="x" HorizontalAlignment="Left" Margin="145,19,0,0" VerticalAlignment="Top"/>
         <Label Content="x" HorizontalAlignment="Left" Margin="145,48,0,0" VerticalAlignment="Top"/>
         <Label Content="Default time:" HorizontalAlignment="Left" Margin="229,20,0,0" VerticalAlignment="Top"/>
         <Label x:Name="LabelDefaultTime" Content=".." HorizontalAlignment="Left" Margin="303,20,0,0" VerticalAlignment="Top"/>
+        <Label Content="Status:" HorizontalAlignment="Left" Margin="98,78,0,0" VerticalAlignment="Top"/>
+        <Label x:Name="LabelStatus" Content="free" HorizontalAlignment="Left" Margin="137,78,0,0" VerticalAlignment="Top"/>
+        <Label Content="Async time:" HorizontalAlignment="Left" Margin="229,49,0,0" VerticalAlignment="Top"/>
+        <Label x:Name="LabelAsyncTime" Content=".." HorizontalAlignment="Left" Margin="303,49,0,0" VerticalAlignment="Top"/>
 
     </Grid>
 </Window>
